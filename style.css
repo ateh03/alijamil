@@ -267,6 +267,10 @@ h6 {
 
 
 .kione {
+  margin: 2cm 2cm 2cm 2cm;
+}
+
+.kionetext {
   margin: 2cm 4cm 3cm 2cm;
   text-indent: 50px;
   line-height: 1.5;
