@@ -268,6 +268,8 @@ h6 {
 
 .kione {
   margin: 2cm 4cm 3cm 2cm;
+  text-indent: 50px;
+  line-height: 1.5;
 }
 
 /**
@@ -474,8 +476,4 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-}
-
-div.kione {
-  text-indent: 50px;
 }
