@@ -31,13 +31,32 @@ body::before {
   }
 }
 
+/*a href highlight*/
 a {
-  color: #73000a;
+  color: #CC2E40;
   text-decoration: none;
 }
 
 a:hover {
+  color: #d76772;
+  text-decoration: none;
+}
+
+.privacy a {
   color: #73000a;
+}
+
+.privacy a:hover {
+  color: #CC2E40;
+  text-decoration: none;
+}
+
+.socials a {
+  color: #73000a;
+}
+
+.socials a:hover {
+  color: #CC2E40;
   text-decoration: none;
 }
 
@@ -400,7 +419,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #73000a;
+  background: #d46770;
   margin: 4px 10px;
 }
 
