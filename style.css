@@ -3,7 +3,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  /*background-color: #040404;*/
+  background-color: #363636;
+
   color: #fff;
   position: relative;
   background: transparent;
@@ -14,7 +16,7 @@ body::before {
   content: "";
   position: fixed;
   /* Picture Background*/
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #090909 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -218,6 +220,7 @@ h6 {
   margin-top: 35px;
 }
 
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -280,19 +283,6 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #fff;
-}
-
-
-
-
-.kione {
-  margin: 2cm 2cm 2cm 2cm;
-}
-
-.kionetext {
-  margin: 2cm 4cm 3cm 2cm;
-  text-indent: 50px;
-  line-height: 1.5;
 }
 
 /**
@@ -470,33 +460,24 @@ section .container {
 
 
 /*--------------------------------------------------------------
-# Credits
+# KI One Section
 --------------------------------------------------------------*/
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 999999;
+
+.kione {
+  
 }
 
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-  }
+.kionetext {
+  margin: 2cm 4cm 3cm 2cm;
+  text-indent: 50px;
+  line-height: 1.5;
 }
 
-.credits a {
-  color: #73000a;
-  transition: 0.3s;
+.kione .kiImage {
+  
+  display: flex;
 }
 
-.credits a:hover {
-  color: #fff;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
