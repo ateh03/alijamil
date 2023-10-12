@@ -496,6 +496,71 @@ section .container {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.subtitle {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+img.preview {
+  max-width: 400px;
+  /* max-width: 45%; */
+  max-height: 400px;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid var(--highlight);
+}
+img.display {
+  /* width: 90vw; */
+  max-width: 85vw;
+  max-height: 85vh;
+}
+
+.img-gallery {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+img + p, .img-gallery + p, .inline.page-link + p {
+  margin-top: 0;
+}
+
+.page-link-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.page-link {
+  background: var(--accent2);
+  display: flex;
+  align-items: center;
+  width: 260px;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 15px;
+  text-decoration: none;
+  transition: background 0.1s linear;
+}
+.page-link:hover {
+  background: var(--accent2-light);
+}
+.page-link img {
+  width: 5ch;
+}
+
+.inline.page-link {
+  width: 150px;
+  
+}
+.inline.page-link img {
+  width: 3ch;
+}
+
 /*--------------------------------------------------------------
 # Leadership Section
 --------------------------------------------------------------*/
