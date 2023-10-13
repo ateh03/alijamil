@@ -6,7 +6,7 @@ body {
   /*background-color: #040404;*/
   background-color: #363636;
 
-  color: #fff;
+  color: #000000;
   position: relative;
   background: transparent;
   margin: 70px;
@@ -16,7 +16,7 @@ body::before {
   content: "";
   position: fixed;
   /* Picture Background*/
-  background: #090909;
+  background: #73000aba;
   background-size: cover;
   left: 0;
   right: 0;
@@ -462,10 +462,6 @@ section .container {
 /*--------------------------------------------------------------
 # KI One Section
 --------------------------------------------------------------*/
-
-.kione {
-  
-}
 
 .kionetext {
   margin: 2cm 4cm 3cm 2cm;
