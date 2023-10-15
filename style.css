@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   /*background-color: #040404;*/
-  background-color: #ffdddde8;
+  background-color: #FFF2E3;
 
   color: #000000;
   position: relative;
@@ -641,6 +641,24 @@ img + p, .img-gallery + p, .inline.page-link + p {
 }
 
 /*--------------------------------------------------------------
+# KI Two Section
+--------------------------------------------------------------*/
+
+.kitwo p{
+  font-size: 20px;
+  text-indent: 30px;
+}
+
+.kiTwoImage {
+  max-width: 85vw;
+  max-height: 85vh;
+  margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------------------------------------------------
 # Leadership Section
 --------------------------------------------------------------*/
 
@@ -677,4 +695,18 @@ img + p, .img-gallery + p, .inline.page-link + p {
 /* KI Table Data*/
 table, th, td {
   border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #deb8b89f;
+}
+
+.leadershipImage2 {
+
+
+  max-width: 40vw;
+  max-height: 40vh;
+  margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
