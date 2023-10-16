@@ -48,25 +48,25 @@ a {
 }
 
 a:hover {
-  color: #d76772;
+  color: rgba(209, 86, 100, 0.652);
   text-decoration: none;
 }
 
 .privacy a {
-  color: #73000a;
+  color: #CC2E40;
 }
 
 .privacy a:hover {
-  color: #CC2E40;
+  color: #73000a;
   text-decoration: none;
 }
 
 .socials a {
-  color: #73000a;
+  color: #CC2E40;
 }
 
 .socials a:hover {
-  color: #CC2E40;
+  color: #73000a;
   text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #73000a;
+  background: #a30714;
 }
 
 @media (max-width: 992px) {
