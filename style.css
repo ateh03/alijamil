@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --header-font: 'Nova Round', cursive;
+}
 body {
   font-family: "Open Sans", sans-serif;
   /*background-color: #040404;*/
@@ -223,6 +226,26 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
+header {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--highlight);
+  /* margin-bottom: 15px; */
+  padding: 20px 0;
+  word-spacing: -0.2ch;
+  color: #000000;
+}
+
+.header a {
+  color: hsl(219, 89%, 40%);
+  font-family: sans-serif;
+}
+
 .navbar {
   padding: 0;
   margin-top: 35px;
@@ -676,9 +699,9 @@ img + p, .img-gallery + p, .inline.page-link + p {
     margin-right: auto;
 }
 
-.ol {
+.kithree li {
   font-size: 20px;
-
+  list-style-position: inside;
 }
 
 /*--------------------------------------------------------------

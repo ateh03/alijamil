@@ -215,6 +215,26 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
+header {
+  font-size: 17px;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--highlight);
+  /* margin-bottom: 15px; */
+  padding: 0;
+  word-spacing: 0.1ch;
+  position: relative;
+}
+
+.header a {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+}
+
 .navbar {
   padding: 0;
   margin-top: 35px;
