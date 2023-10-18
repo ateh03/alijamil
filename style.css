@@ -676,7 +676,8 @@ img + p, .img-gallery + p, .inline.page-link + p {
     margin-right: auto;
 }
 
-.bullets {
+.ol {
+  font-size: 20px;
 
 }
 
